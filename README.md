@@ -3,13 +3,11 @@ Converts exported results of Capa tool from .json format to another formats supp
 It parses the .json output and converts it to .tag file or x64dbg annotation and bookmarking script so you will be able to profit from Capa results in other tools.<br/>
 The format of .tag file can be used for intagration CAPA results to tools like PE-bear (Tested): https://github.com/hasherezade/pe-bear-releases or IDA PRO (not Tested) with use of IFL plugin made by: https://github.com/hasherezade/IDA_ifl
 <br/>
-<br/>
 ## What is Capa:
 Capa detects capabilities in executable files. You run it against a PE file or shellcode and it tells you what it thinks the program can do.
 For example, it might suggest that the file is a backdoor, is capable of installing services, or relies on HTTP to communicate.<br/>
 Capa repo: https://github.com/fireeye/capa <br/>
 Capa blog post: https://www.fireeye.com/blog/threat-research/2020/07/capa-automatically-identify-malware-capabilities.html
-<br/>
 <br/>
 ## How to use:
 Analyze sample with CAPA:<br/>
