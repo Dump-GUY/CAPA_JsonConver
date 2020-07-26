@@ -37,7 +37,6 @@ Selecting .json file:
 ![Loading_json file](/Images/Loading_json_file.PNG)
 <br/>
 <br/>
-<br/>
 ## x64dbg:
 Run x64dbg with relevant sample.<br/>
 Go to script tab and load script exported by CAPA_JsonConver.py.<br/>
@@ -52,19 +51,23 @@ Disassembly view:
 <br/>
 ![x64dbg_disassemblyView](/Images/x64dbg_disassemblyView.PNG)
 <br/>
+<br/>
 Bookmark view:
 <br/>
 ![Bookmark view](/Images/x64dbg_bookmarkview.PNG)
+<br/>
 <br/>
 Graph view with bookmarks:
 <br/>
 ![Graph and bookmark view](/Images/x64dbg_Graph_view_and_bookmarks.PNG)
 <br/>
 <br/>
-<br/>
 ## PE-bear:
-If you run Pe-bear and load sample from the same directory, where .tag file is - .tag file is automatically imported.
-If not - run Pe-bear and load sample. Click on Tag button - click on file - load - select your .tag file.
+If you run Pe-bear and load sample from the same directory, where .tag file is - .tag file is automatically imported.<br/>
+If not - run Pe-bear and load sample. Click on Tag button - click on file - load - select your .tag file.<br/>
+
+Hint: You can enable option in PE-bear - Tag view - Follow on click --> so if you click on RVA you are immediately on that position in 
+Disassembly view, which could be quite handy.
 
 PE-bear view 1:
 
@@ -91,6 +94,3 @@ Example: PE-bear: https://github.com/hasherezade/pe-bear-releases
 Tested with CAPA version 1.0.0<br/>
 Require Python 3+ or you can use standalone binary for Windows here.<br/>
 Tested with CAPA version 1.0.0, X64dbg, PE-Bear version 0.4.0.3, on win7 - win10.<br/>
-
-
-
