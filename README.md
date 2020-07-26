@@ -20,7 +20,7 @@ Parameter '-j' must be presented in cmdline argument to export results in .json 
 The exported .json file MUST have the original filename of sample (shown in examples) to successful use of exported x64dbg script !!!<br/> 
 Do NOT change the filename of sample for x64dbg or the script would not find the Base address.<br/>
 <br/>
-Run CAPA_JsonConver.pyw or standalone binary CAPA_JsonConver.exe.<br/>
+Run CAPA_JsonConver.pyw or standalone binary CAPA_JsonConver.exe (https://github.com/Dump-GUY/CAPA_JsonConver/releases/tag/ver1.0)<br/>
 Message box 1 will pop up and you can choose if you want to convert .json to .tag file.<br/>
 File open dialog will pop up - choose .json file which you want to convert.<br/>
 Message box 2 will pop up and you can choose if you want to convert .json to .x64dbg script.<br/>
@@ -91,5 +91,5 @@ Example: PE-bear: https://github.com/hasherezade/pe-bear-releases
 <br/>
 ## Additional information:
 Tested with CAPA version 1.0.0<br/>
-Require Python 3+ or you can use standalone binary for Windows here.<br/>
+Require Python 3+ or you can use standalone binary for Windows 64bit (https://github.com/Dump-GUY/CAPA_JsonConver/releases/tag/ver1.0).<br/>
 Tested with CAPA version 1.0.0, X64dbg, PE-Bear version 0.4.0.3, on win7 - win10.<br/>
