@@ -89,7 +89,6 @@ you already know that the (Function, Block) on the specific RVA has for example 
 In case of .tag file, there is no limitation - cutting off capabilities size relevant to same RVA - programs supporting .tag file can handle larger comments. <br/>
 Example: PE-bear: https://github.com/hasherezade/pe-bear-releases
 <br/>
-<br/>
 ## Additional information:
 Tested with CAPA version 1.0.0<br/>
 Require Python 3+ or you can use standalone binary for Windows here.<br/>
