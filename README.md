@@ -22,9 +22,9 @@ Do NOT change the filename of sample for x64dbg or the script would not find the
 <br/>
 Run CAPA_JsonConver.pyw or standalone binary CAPA_JsonConver.exe.<br/>
 Message box 1 will pop up and you can choose if you want to convert .json to .tag file.<br/>
-File open dialog will pop up - choose .json file which you wnat to convert.<br/>
+File open dialog will pop up - choose .json file which you want to convert.<br/>
 Message box 2 will pop up and you can choose if you want to convert .json to .x64dbg script.<br/>
-File open dialog will pop up - choose .json file which you wantt to convert.<br/>
+File open dialog will pop up - choose .json file which you want to convert.<br/>
 <br/>
 All converted files are saved to the same location where the .json file used for conversion.<br/>
 <br/>
