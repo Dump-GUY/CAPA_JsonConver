@@ -37,58 +37,62 @@ MessageBox options:
 Selecting .json file:
 
 ![Loading_json file](/Images/Loading_json_file.PNG)
-
-
+<br/>
+<br/>
+<br/>
 ## x64dbg:
-Run x64dbg with relevant sample.
-Go to script tab and load script exported by CAPA_JsonConver.py.
+Run x64dbg with relevant sample.<br/>
+Go to script tab and load script exported by CAPA_JsonConver.py.<br/>
 Run script.
-
+<br/>
 ![Script run](/Images/x64dbg_run_script.PNG)
-
-Unload the script.
-You can see that code was commented in disassembly view and bookmark view. 
-
+<br/>
+Unload the script.<br/>
+You can see that code was commented in disassembly view and bookmark view. <br/>
+<br/>
 Disassembly view:
-
+<br/>
 ![x64dbg_disassemblyView](/Images/x64dbg_disassemblyView.PNG)
-
+<br/>
 Bookmark view:
-
+<br/>
 ![Bookmark view](/Images/x64dbg_bookmarkview.PNG)
-
+<br/>
 Graph view with bookmarks:
-
+<br/>
 ![Graph and bookmark view](/Images/x64dbg_Graph_view_and_bookmarks.PNG)
-
-
-
+<br/>
+<br/>
+<br/>
 ## PE-bear:
 If you run Pe-bear and load sample from the same directory, where .tag file is - .tag file is automatically imported.
 If not - run Pe-bear and load sample. Click on Tag button - click on file - load - select your .tag file.
 
 PE-bear view 1:
 
-![PE-Bear view 1](/Images//Images/Pe_Bear_1.PNG)
+![PE-Bear view 1](/Images/Pe_Bear_1.PNG)
 
 
 PE-bear view 2:
 
-![PE-Bear view 2](/Images//Images/Pe_Bear_2.PNG)
-
-
+![PE-Bear view 2](/Images/Pe_Bear_2.PNG)
+<br/>
+<br/>
 ## Limitations:
-In case of more Capabilities detected by Capa which are relevant to the same origin RVA (same function, block or whole file), all capabilities are chained and added (as a comment) to the same RVA.
-The sizes of labels and comments in x64dbg are limited to ~256 characters so in case of more Capabilities relevant to same origin RVA - only first 256 character are added and some Capability could be cut off :(
-In real Case the cutting off chained Capabilities which takes together more than 256 character is not such a problem because you already know that the (Function, Block) on the specific RVA has for example
-more than 10 Capabilities and must be your point of interrest.
-
-In case of .tag file, there is no limitation - cutting off capabilities size relevant to same RVA - programs supporting .tag file can handle larger comments. Example: PE-bear: https://github.com/hasherezade/pe-bear-releases
-
+In case of more Capabilities detected by Capa which are relevant to the same origin RVA (same function, block or whole file), <br/>
+all capabilities are chained and added (as a comment) to the same RVA.<br/>
+The sizes of labels and comments in x64dbg are limited to ~256 characters so in case of more Capabilities relevant to same origin RVA - only first 256 character are added and some Capability could be cut off :(<br/>
+In real Case the cutting off chained Capabilities which takes together more than 256 character is not such a problem because<br/>
+you already know that the (Function, Block) on the specific RVA has for example more than 10 Capabilities so it must be your point of interrest.
+<br/>
+In case of .tag file, there is no limitation - cutting off capabilities size relevant to same RVA - programs supporting .tag file can handle larger comments. <br/>
+Example: PE-bear: https://github.com/hasherezade/pe-bear-releases
+<br/>
+<br/>
 ## Additional information:
-Tested with CAPA version 1.0.0
-Require Python 3+ or you can use standalone binary for Windows here.
-Tested with CAPA version 1.0.0, X64dbg, PE-Bear version 0.4.0.3, on win7 - win10.
+Tested with CAPA version 1.0.0<br/>
+Require Python 3+ or you can use standalone binary for Windows here.<br/>
+Tested with CAPA version 1.0.0, X64dbg, PE-Bear version 0.4.0.3, on win7 - win10.<br/>
 
 
 
