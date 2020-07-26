@@ -80,8 +80,7 @@ PE-bear view 2:
 <br/>
 <br/>
 ## Limitations:
-In case of more Capabilities detected by Capa which are relevant to the same origin RVA (same function, block or whole file), <br/>
-all capabilities are chained and added (as a comment) to the same RVA.<br/>
+In case of more Capabilities detected by Capa which are relevant to the same origin RVA (same function, block or whole file),all capabilities are chained and added (as a comment) to the same RVA.<br/>
 The sizes of labels and comments in x64dbg are limited to ~256 characters so in case of more Capabilities relevant to same origin RVA - only first 256 character are added and some Capability could be cut off :(<br/>
 In real Case the cutting off chained Capabilities which takes together more than 256 character is not such a problem because<br/>
 you already know that the (Function, Block) on the specific RVA has for example more than 10 Capabilities so it must be your point of interrest.
