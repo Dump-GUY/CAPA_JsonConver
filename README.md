@@ -1,6 +1,6 @@
 # CAPA_JsonConver
 Converts exported results of Capa tool from .json format to another formats supporting by different tools.<br/>
-It parses the .json output and converts it to .tag file or x64dbg annotation and bookmarking script so you will be able to profit from Capa results in other tools.<br/>
+It parses the .json output and converts it to .tag file, x64dbg annotation and bookmarking script or Cutter/r2gui annotation script so you will be able to profit from Capa results in other tools.<br/>
 The format of .tag file can be used for intagration CAPA results to tools like PE-bear (Tested): https://github.com/hasherezade/pe-bear-releases or IDA PRO (not Tested) with use of IFL plugin made by: https://github.com/hasherezade/IDA_ifl
 <br/>
 ## What is Capa:
@@ -21,16 +21,13 @@ The exported .json file MUST have the original filename of sample (shown in exam
 Do NOT change the filename of sample for x64dbg or the script would not find the Base address.<br/>
 <br/>
 Run CAPA_JsonConver.pyw or standalone binary CAPA_JsonConver.exe (https://github.com/Dump-GUY/CAPA_JsonConver/releases)<br/>
-Message box 1 will pop up and you can choose if you want to convert .json to .tag file.<br/>
-File open dialog will pop up - choose .json file which you want to convert.<br/>
-Message box 2 will pop up and you can choose if you want to convert .json to .x64dbg script.<br/>
+CheckboxBox option menu will pop up and you can choose if you want to convert .json to .tag file, x64dbg script or Cutter/r2gui script.<br/>
 File open dialog will pop up - choose .json file which you want to convert.<br/>
 <br/>
 All converted files are saved to the same location where the .json file used for conversion.<br/>
 <br/>
-MessageBox options:
-
-![Messagebox_options](/Images/Messagebox_options.PNG)
+CheckBox option menu:
+![checkbox_options](/Images/CAPA_JsonConver_CheckboxOptions.PNG)
 
 Selecting .json file:
 
@@ -77,6 +74,34 @@ PE-bear view 1:
 PE-bear view 2:
 
 ![PE-Bear view 2](/Images/Pe_Bear_2.PNG)
+<br/>
+<br/>
+## Cutter/r2gui:
+Run Cutter, load relevant sample and run the .r2 script produced by tool tiny_tracer_tag_to_cutter.
+You can run the .r2 script via advanced options during sample loading.
+
+Advanced options during sample loading:
+
+![Cutter_import_script1](/Images/Cutter_import_script1.png)
+
+Or you can run .r2 script from Cutter view. If you run script from Cutter view - you MUST refresh view with F5 or in View Tab/Refresh Contents to see modified contents.
+
+Running Cutter script from Cutter view:
+
+![Cutter_import_script2](/Images/Cutter_import_script2.png)
+
+
+
+![Cutter_import_script2](/Images/CAPA_JsonConver_disassemblyView.PNG)
+
+![Cutter_import_script2](/Images/CAPA_JsonConver_Graphview_comments_callgraph.PNG)
+
+![Cutter_import_script2](/Images/CAPA_JsonConver_disassemblyView_comments_callgraph.PNG)
+
+![Cutter_import_script2](/Images/CAPA_JsonConver_disassemblyView_comments_decompileview.PNG)
+
+
+
 <br/>
 <br/>
 ## Limitations:
