@@ -120,4 +120,4 @@ Example: PE-bear: https://github.com/hasherezade/pe-bear-releases
 ## Additional information:
 Tested with CAPA version 1.0.0<br/>
 Require Python 3+ or you can use standalone binary for Windows 64bit (https://github.com/Dump-GUY/CAPA_JsonConver/releases).<br/>
-Tested with CAPA version 1.0.0, X64dbg, PE-Bear version 0.4.0.3, on win7 - win10.<br/>
+Tested with CAPA version 1.0.0, X64dbg, Cutter, PE-Bear version 0.4.0.3, on win7 - win10.<br/>
