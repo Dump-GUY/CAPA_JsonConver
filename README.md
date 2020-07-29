@@ -26,7 +26,8 @@ File open dialog will pop up - choose .json file which you want to convert.<br/>
 <br/>
 All converted files are saved to the same location where the .json file used for conversion.<br/>
 <br/>
-CheckBox option menu:
+CheckBox option menu:<br/>
+
 ![checkbox_options](/Images/CAPA_JsonConver_CheckboxOptions.PNG)
 
 Selecting .json file:
@@ -77,7 +78,7 @@ PE-bear view 2:
 <br/>
 <br/>
 ## Cutter/r2gui:
-Run Cutter, load relevant sample and run the .r2 script produced by tool tiny_tracer_tag_to_cutter.
+Run Cutter, load relevant sample and run the .r2 script produced by tool CAPA_JsonConver.
 You can run the .r2 script via advanced options during sample loading.
 
 Advanced options during sample loading:
@@ -90,18 +91,21 @@ Running Cutter script from Cutter view:
 
 ![Cutter_import_script2](/Images/Cutter_import_script2.png)
 
-
+Cutter - Comment and Disassembly view annotated with Capa results:
 
 ![Cutter_import_script2](/Images/CAPA_JsonConver_disassemblyView.PNG)
 
+Cutter - Comment and Graph view annotated with Capa results and CallGraph view:
+
 ![Cutter_import_script2](/Images/CAPA_JsonConver_Graphview_comments_callgraph.PNG)
+
+Cutter - Comment and Disassembly view annotated with Capa results and CallGraph view:
 
 ![Cutter_import_script2](/Images/CAPA_JsonConver_disassemblyView_comments_callgraph.PNG)
 
+Cutter - Comment, Disassembly view and Decompile view annotated with Capa results:
+
 ![Cutter_import_script2](/Images/CAPA_JsonConver_disassemblyView_comments_decompileview.PNG)
-
-
-
 <br/>
 <br/>
 ## Limitations:
